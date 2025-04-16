@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico Aluno</title>
+</head>
+<body>
+    <style>
+        table, tr, td , th{
+            border:  1px solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+    
+    <div>
+        <h1>Histórico do Aluno</h1>
+    </div>
+
+    <table>
+        <tr>
+            <th>DISCIPLINA</th>
+            <th>NOTA 01</th>
+            <th>NOTA 02</th>
+            <th>MÉDIA</th>
+        </tr>
+        <% for (let i = 0; i < lista_novo_registro.length; i++)  { %>
+            <tr>
+                <td><%= lista_novo_registro[i].disciplina %></td>
+                <td><%= lista_novo_registro[i].nota1 %></td>
+                <td><%= lista_novo_registro[i].nota2 %></td>
+                <td><%= lista_novo_registro[i].media %></td>
+            </tr>
+        <% } %>
+        </table>
+        <br>
+        <a href="http://localhost:3000/novo_registro">
+            <button>Cadastrar</button>
+          </a>
+        
+    
+</body>
+</html>
