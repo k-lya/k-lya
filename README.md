@@ -1,5 +1,4 @@
-## ✿✿✿ Olá, eu sou a **<span style="color:hotpink">Kallya</span>** ✿✿✿
-
+## Hi 
 <!--
 **k-lya/k-lya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
